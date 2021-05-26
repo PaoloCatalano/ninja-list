@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={css.title}> ciaoooo</h1>
+        <h1 className={css.title}> Welcome to the Ninja List Test</h1>
         <p className={css.text}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non fugit,
           et quisquam qui necessitatibus autem soluta deleniti eum, inventore
