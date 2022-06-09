@@ -2,7 +2,21 @@
 
 /* Document
    ========================================================================== */
+:root {
+  /* CSS HEX */
+  --majorelle-blue: #623ceaff;
+  --eggshell: #e7dfc6ff;
+  --alice-blue: #e9f1f7ff;
+  --cyber-grape: #54426bff;
+  --dutch-white: #dbd5b2ff;
 
+  /* CSS HSL */
+  --majorelle-blue: hsla(253, 81%, 58%, 1);
+  --eggshell: hsla(45, 41%, 84%, 1);
+  --alice-blue: hsla(206, 47%, 94%, 1);
+  --cyber-grape: hsla(266, 24%, 34%, 1);
+  --dutch-white: hsla(51, 36%, 78%, 1);
+}
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -416,7 +430,7 @@ html {
 }
 
 body {
-  background: var(--backgroundColor);
+  background: var(--majorelle-blue);
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;
@@ -606,7 +620,7 @@ ul {
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
 
 body {
-  background: #f2f2f2;
+  background: var(--eggshell);
   color: #333;
 }
 a {
